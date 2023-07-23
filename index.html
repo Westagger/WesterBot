@@ -24,6 +24,7 @@
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
             animation: fadeIn 1s ease;
+            max-width: 90%; /* Set a maximum width for the container */
         }
 
         @keyframes fadeIn {
@@ -77,9 +78,10 @@
 
         .footer {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
-            width: 100%;
-            padding: 0 20px;
+            width: 90%; /* Set a width for the footer */
+            padding: 10px 20px;
             position: absolute;
             bottom: 20px;
             margin: 0 auto;
@@ -89,6 +91,19 @@
             color: white;
             text-decoration: none;
             margin: 5px;
+        }
+
+        /* Media Queries for Responsive Design */
+        @media screen and (max-width: 600px) {
+            /* Adjust container padding for smaller screens */
+            .container {
+                padding: 10px;
+            }
+
+            /* Adjust font-size for smaller screens */
+            h1 {
+                font-size: 24px;
+            }
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
