@@ -14,7 +14,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            overflow-x: hidden; /* Prevent scrolling on the x-axis */
+            overflow-x: hidden;
         }
 
         .container {
@@ -24,7 +24,7 @@
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
             animation: fadeIn 1s ease;
-            max-width: 90%; /* Set a maximum width for the container */
+            max-width: 90%;
         }
 
         @keyframes fadeIn {
@@ -80,7 +80,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            width: 90%; /* Set a width for the footer */
+            width: 90%;
             padding: 10px 20px;
             position: absolute;
             bottom: 20px;
@@ -93,14 +93,11 @@
             margin: 5px;
         }
 
-        /* Media Queries for Responsive Design */
+        
         @media screen and (max-width: 600px) {
-            /* Adjust container padding for smaller screens */
             .container {
                 padding: 10px;
             }
-
-            /* Adjust font-size for smaller screens */
             h1 {
                 font-size: 24px;
             }
