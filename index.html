@@ -1,134 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title style="color: #3498db;">Wester Trivia Bot</title>
-    <link rel="icon" href="https://i.ibb.co/XYhhTNr/download.png" type="image/x-icon">
-    <style>
-        body {
-            background-color: #3498db;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            overflow-x: hidden;
-        }
-
-        .container {
-            text-align: center;
-            padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-            animation: fadeIn 1s ease;
-            max-width: 90%;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        h1 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 36px;
-            color: #3498db;
-            cursor: pointer;
-            animation: jumpAnimation 0.5s ease-in-out infinite;
-            font-weight: bold;
-        }
-
-        @keyframes jumpAnimation {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: all 0.2s;
-            margin: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        }
-
-        .button:hover {
-            transform: scale(1.05);
-        }
-
-        .about {
-            font-size: 14px;
-            color: #777;
-            margin-top: 20px;
-        }
-
-        .footer {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            width: 90%;
-            padding: 10px 20px;
-            position: absolute;
-            bottom: 20px;
-            margin: 0 auto;
-        }
-
-        .footer a {
-            color: white;
-            text-decoration: none;
-            margin: 5px;
-        }
-
-        
-        @media screen and (max-width: 600px) {
-            .container {
-                padding: 10px;
-            }
-            h1 {
-                font-size: 24px;
-            }
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <div class="container">
-        <h1 onclick="window.location.reload();"><strong>Wester Trivia Bot</strong></h1>
-        <p>The trivia bot that tests your knowledge!</p>
-        <div class="button-container">
+   <head>
+      <title style="color: #3498db;">Wester Trivia Bot</title>
+      <link rel="icon" href="https://i.ibb.co/XYhhTNr/download.png" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="static/style.css">
+   </head>
+   <body>
+      <div class="container">
+         <h1 onclick="window.location.reload();"><strong>Wester Trivia Bot</strong></h1>
+         <p>The trivia bot that tests your knowledge!</p>
+         <div class="button-container">
             <a class="button"
-                href="https://discord.com/api/oauth2/authorize?client_id=1131718516467302420&permissions=274878368832&scope=bot">Invite
-                the Bot</a>
+               href="https://discord.com/api/oauth2/authorize?client_id=1131718516467302420&permissions=274878368832&scope=bot">Invite
+            the Bot</a>
             <a class="button" href="https://bmc.link/westagger">Support the Developer</a>
-        </div>
-        <p class="about">Developed by <a href="https://shorturl.at/jnsHX" target="_blank">Westagger</a></p>
-    </div>
-    <div class="footer">
-        <div>
+         </div>
+         <p class="about">Developed by <a href="https://shorturl.at/jnsHX" target="_blank">Westagger</a></p>
+      </div>
+      <div class="footer">
+         <div>
             <a href="https://pastebin.com/raw/RaeRJ9ed" target="_blank" style="color: white;">Privacy Policy</a>
             <a href="https://pastebin.com/raw/9gTGxYXF" target="_blank" style="color: white;">Terms of Service</a>
-        </div>
-        <div>
+         </div>
+         <div>
             <a href="https://pastebin.com/raw/r7dx7gQ7" target="_blank" style="color: white;">Bot Privacy Policy</a>
             <a href="https://pastebin.com/raw/vGzeF2FC" target="_blank" style="color: white;">Bot Terms of Service</a>
-        </div>
-    </div>
-</body>
-
+         </div>
+      </div>
+   </body>
 </html>
-
 <!-- This website was entirely make by westagger / https://github.com/Westagger/ -->
